@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Community Finance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm">Confirm</string>
+    <string name="source_account_card">Source Account/Card</string>
+    <string name="transaction_date_time">Transaction Date Time</string>
+    <string name="type">Type</string>
+    <string name="label_narration">Narration</string>
+    <string name="transaction_info">Transaction Info</string>
+    <string name="remarks">Remarks</string>
+    <string name="account_number">Account Number</string>
+    <string name="reference_no">Reference No</string>
+    <string name="total">Total</string>
+    <string name="download_receipt">Download Receipt</string>
+    <string name="community_cash_transaction_receipt">COMMUNITY CASH\nTRANSACTION RECEIPT</string>
+    <string name="amount">Amount</string>
+    <string name="submit">Submit</string>
+</resources>

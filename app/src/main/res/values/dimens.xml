@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_17">17dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+
+    <dimen name="text_dimen_12">12sp</dimen>
+</resources>
