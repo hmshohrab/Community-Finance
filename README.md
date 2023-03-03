@@ -45,10 +45,14 @@ Connect an Android device to your development machine.
     
 ## Demo
 
-Insert gif or link to demo
+Link to demo
+[Demo](https://github.com/hmshohrab/Community-Finance/blob/master/app/release/app-release.apk?raw=true
+)
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot-1](https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_1.png)
+![App Screenshot-2](https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_2.png)
+![App Screenshot-3](https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_3.png)
 
