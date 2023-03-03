@@ -81,7 +81,7 @@ object DialogManager {
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
             )
-            setCancelable(true)
+            setCancelable(false)
             window?.attributes?.windowAnimations = R.style.animation
             dialogBinding.apply {
                 txtDestAccountNo.text = hashMap["number"]
