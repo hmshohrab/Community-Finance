@@ -41,8 +41,8 @@ Connect an Android device to your development machine.
 * Select `Run -> Run 'app'` (or `Debug 'app'`) from the menu bar
 * Select the device you wish to run the app on and click 'OK'
 
- 
-    
+
+
 ## Demo
 
 Link to demo
@@ -52,7 +52,9 @@ Link to demo
 
 ## Screenshots
 
-![App Screenshot-1](https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_1.png)
-![App Screenshot-2](https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_2.png)
-![App Screenshot-3](https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_3.png)
+<p float="left">
+  <img src="https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_1.png" width="300" />
+  <img src="https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_2.png" width="300" /> 
+  <img src="https://raw.githubusercontent.com/hmshohrab/Community-Finance/master/screenshorts/Screenshot_3.png" width="300" />
+</p>
 
