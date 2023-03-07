@@ -21,6 +21,7 @@ import com.hmshohrab.communityfinance.core.BaseActivity
 import com.hmshohrab.communityfinance.databinding.ActivityMainBinding
 import java.util.*
 
+
 class MainActivity : BaseActivity<MainVM>() {
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
     private var permissionId = 200
@@ -35,8 +36,12 @@ class MainActivity : BaseActivity<MainVM>() {
     }
 
     override fun setUpView() {
-        mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
+         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         getLocation()
+    }
+
+    override fun observeViewModelEvents() {
+
     }
 
     private fun isLocationEnabled(): Boolean {
@@ -97,13 +102,7 @@ class MainActivity : BaseActivity<MainVM>() {
                         val list: List<Address> =
                             geocoder.getFromLocation(location.latitude, location.longitude, 1) as List<Address>
                         viewModel.address = list[0]
-                        binding.apply {
-                           /* tvLatitude.text = "Latitude\n${list[0].latitude}"
-                            tvLongitude.text = "Longitude\n${list[0].longitude}"
-                            tvCountryName.text = "Country Name\n${list[0].countryName}"
-                            tvLocality.text = "Locality\n${list[0].locality}"
-                            tvAddress.text = "Address\n${list[0].getAddressLine(0)}"*/
-                        }
+
                     }
                 }
             } else {

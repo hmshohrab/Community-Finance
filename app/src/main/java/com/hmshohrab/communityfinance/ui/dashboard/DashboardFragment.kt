@@ -40,6 +40,7 @@ class DashboardFragment : BaseFragment<MainVM>() {
         val itemList: MutableList<Item> = mutableListOf()
         itemList.add(Item("Bkash", R.drawable.bkash_money_send_icon))
         itemList.add(Item("Nagad", R.drawable.ic_nagad))
+        itemList.add(Item("Partner Discount", R.drawable.cbbl_logo_small))
         //Initialize Recyclerview
         binding.rv.apply {
             val paymentListAdapter = PaymentListAdapter()
@@ -48,7 +49,12 @@ class DashboardFragment : BaseFragment<MainVM>() {
                     val bundle = bundleOf()
                     bundle.putString("title", any.title)
                     bundle.putInt("payIcon",any.icon)
-                    findNavController().navigate(R.id.paymentDetailsFragment, bundle)
+                    if(any.title == "Partner Discount"){
+                        findNavController().navigate(R.id.action_dashboardFragment_to_categoryFragment, bundle)
+                    }else{
+                        findNavController().navigate(R.id.action_dashboardFragment_to_paymentDetailsFragment, bundle)
+                    }
+
                 }
             }
             layoutManager = GridLayoutManager(requireContext(), 2)

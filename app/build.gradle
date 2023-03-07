@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -35,7 +36,10 @@ android {
         dataBinding true
     }
 }
-
+// Allow references to generated code
+kapt {
+    correctErrorTypes true
+}
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.9.0'
@@ -55,4 +59,15 @@ dependencies {
 
     implementation 'com.google.android.gms:play-services-location:21.0.1'
 
- }
+    implementation "com.github.haroldadmin:NetworkResponseAdapter:5.0.0"
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.9.3"))
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation("com.squareup.okhttp3:logging-interceptor")
+
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+
+
+}

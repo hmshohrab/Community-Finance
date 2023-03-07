@@ -13,10 +13,36 @@
         <action
             android:id="@+id/action_dashboardFragment_to_paymentDetailsFragment"
             app:destination="@id/paymentDetailsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
     </fragment>
     <fragment
         android:id="@+id/paymentDetailsFragment"
         android:name="com.hmshohrab.communityfinance.ui.payment.PaymentDetailsFragment"
         android:label="fragment_payment_details"
         tools:layout="@layout/fragment_payment_details" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.hmshohrab.communityfinance.ui.category.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_categoryFragment_to_discountPartnerFragment"
+            app:destination="@id/discountPartnerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/discountPartnerFragment"
+        android:name="com.hmshohrab.communityfinance.ui.discount.DiscountPartnerFragment"
+        android:label="fragment_discount_partner"
+        tools:layout="@layout/fragment_discount_partner" >
+        <action
+            android:id="@+id/action_discountPartnerFragment_to_discountPartnerDetailsFragment"
+            app:destination="@id/discountPartnerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/discountPartnerDetailsFragment"
+        android:name="com.hmshohrab.communityfinance.ui.discount.DiscountPartnerDetailsFragment"
+        android:label="DiscountPartnerDetailsFragment"
+        tools:layout="@layout/fragment_discount_partner_details"/>
 </navigation>
